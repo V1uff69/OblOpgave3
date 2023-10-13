@@ -1,0 +1,19 @@
+ body, h1, h2, h3, h4, h5, h6, p, ul, ol, table, tr, td, span, div { 
+    font-family: Arial, Helvetica, Sans-Serif; 
+    /* AB 24.01.2002 Netscape 4.7 retter sig ikke efter overordnet angivelse f.eks. paa body,
+    derfor de mange tag-navne. */ 
+ }
+  
+header {
+   background-color: rgb(243, 243, 115);
+}
+
+.pagecontent {
+   padding: 3%;
+}
+
+#footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+ }
